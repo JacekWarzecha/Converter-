@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ile zapłacisz</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/form.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="js/script.js"></script>
+  </head>
+  <body class="body">
+    <form class="js-form">
+      <p>
+        Oblicz ile zapłacisz za jedną akcję w <strong>PLN</strong> w zależności
+        od kursu akcji oraz kursu USD
+      </p>
+      <fieldset class="form__fieldset">
+        <legend class="form__legend">Wprowadź parametry</legend>
+        <p>
+          <label>
+            Kurs akcji:
+            <input
+              name="quotes"
+              type="number"
+              class="js-quotes form__field"
+              min="0.01"
+              max="99999"
+              required
+            />
+          </label>
+        </p>
+        <p>
+          <label
+            >Kurs USD:
+            <input
+              name="exchange"
+              type="number"
+              class="js-exchange form__field"
+              min="0.01"
+              max="999"
+              required
+            />
+          </label>
+        </p>
+      </fieldset>
+      <p>
+        Koszt jednej akcji wynosi:<strong class="js-cost form__cost"
+          >n/a</strong
+        >
+      </p>
+    </form>
+  </body>
+</html>

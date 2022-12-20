@@ -1,0 +1,28 @@
+.form__fieldset {
+    background-color: rgb(244 232 97);
+    border-radius: 8px;
+}
+
+.form__legend {
+    border: 1px solid currentColor;
+    border-radius: 8px;
+    background-color: rgb(244 232 97);
+    padding: 5px;
+}
+
+.form__cost {
+    background-color: rgb(244 232 97);
+    border: 1px solid currentColor;
+    border-radius: 8px;
+    padding: 5px 10px;
+    margin-left: 5px;
+}
+
+.form__field {
+    border-radius: 8px;
+    width: 150px;
+}
+
+.form__field:hover {
+    background-color: hsl(55, 87%, 87%)
+}
