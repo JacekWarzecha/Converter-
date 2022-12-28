@@ -1,7 +1,7 @@
-#Converter
+# Converter
 
-###W tym konwerterze możesz szybko obliczyć ile wydasz złotówek na zagraniczne akcje.
+### In this converter you can quickly calculate how much PLN you will spend on foreign stocks.
 
-###Link do strony --> [click](https://jacekwarzecha.github.io/Converter-/)
+### Link for this page --> [click](https://jacekwarzecha.github.io/Converter-/)
 
 ![dolar](https://raw.githubusercontent.com/JacekWarzecha/Converter-/main/images/dollar192.png)
