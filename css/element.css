@@ -1,0 +1,11 @@
+.element {
+    background-image: url("../images/tloPomaranczowe.png");
+    max-width: 1000px;
+    max-height: 500px;
+    resize:both;
+    overflow: auto;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    
+}
