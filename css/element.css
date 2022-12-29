@@ -1,4 +1,5 @@
 .element {
+    padding: 0 1%;
     background-image: url("../images/tloPomaranczowe.png");
     max-width: 1000px;
     max-height: 500px;
