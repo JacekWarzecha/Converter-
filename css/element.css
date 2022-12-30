@@ -1,8 +1,9 @@
 .element {
     padding: 0 1%;
     background-image: url("../images/tloPomaranczowe.png");
-    max-width: 1000px;
-    max-height: 500px;
+    max-width: 1200px;
+    max-height: 1000px;
+    width: 100%;
     resize:both;
     overflow: auto;
     background-size: cover;

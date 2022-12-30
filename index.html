@@ -42,34 +42,65 @@
                 name="quotes"
                 type="number"
                 class="js-quotes form__field"
-                min="0.01"
-                max="99999"
                 required
               />
             </label>
           </p>
           <p>
-            <label
-              >Kurs USD:
+            <label>
+              Kurs USD:
               <input
                 name="exchange"
                 type="number"
                 class="js-exchange form__field"
-                min="0.01"
-                max="999"
                 required
               />
             </label>
           </p>
+          <p>
+            Koszt jednej akcji wynosi:<strong class="js-cost form__cost"
+              >n/a</strong
+            >
+          </p>
         </fieldset>
-        <p>
-          Koszt jednej akcji wynosi:<strong class="js-cost form__cost"
-            >n/a</strong
-          >
-        </p>
-        <p>
-          Jest to całkiem <strong class="js-ratio form__cost"> </strong> cena
-        </p>
+      </form>
+
+      <form class="js-form-cantor">
+        <p>Zamień swoje złotówki na wybraną walutę</p>
+        <fieldset class="form__fieldset">
+          <p>
+            <label>
+              Wybierz walutę:
+              <select
+                name="currency"
+                class="js-currency form__field form__field--width"
+              >
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="CHF">CHF</option>
+              </select>
+            </label>
+          </p>
+          <p>
+            <label>
+              Wprowadź kwotę:
+              <input
+                name="amount"
+                type="number"
+                class="js-amount form__field"
+                min="0.01"
+                max="1000000000"
+                step="any"
+                required
+              />
+            </label>
+            PLN
+          </p>
+          <p>
+            <button class="form__button">Oblicz</button>
+          </p>
+          <p>= <strong class="js-score form__cost"> n/a</strong></p>
+        </fieldset>
       </form>
     </div>
   </body>
