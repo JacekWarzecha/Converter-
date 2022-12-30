@@ -2,7 +2,7 @@
 
 ### In this converter you can quickly calculate how much PLN you will spend on foreign stocks.
 
-### Also you can calculate polish zloty to another currency.
+### Also you can convert polish zloty to another currencies.
 
 ### Link for this page --> [click](https://jacekwarzecha.github.io/Converter-/)
 
