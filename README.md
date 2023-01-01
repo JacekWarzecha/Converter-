@@ -6,4 +6,6 @@
 
 ### Link for this page --> [click](https://jacekwarzecha.github.io/Converter-/)
 
+#### View from the page ![screenshotPage](https://raw.githubusercontent.com/JacekWarzecha/Converter-/main/images/openGraph2.jpg)
+
 ![dolar](https://raw.githubusercontent.com/JacekWarzecha/Converter-/main/images/dollar192.png)
