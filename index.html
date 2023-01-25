@@ -28,36 +28,38 @@
   </head>
   <body class="body">
     <div class="element">
-      <form class="js-form">
+      <form class="js-form form">
         <p>
           Oblicz ile zapłacisz za jedną akcję w <strong>PLN</strong> w
           zależności od kursu akcji oraz kursu USD
         </p>
         <fieldset class="form__fieldset">
           <legend class="form__legend">Wprowadź parametry</legend>
-          <p>
-            <label>
-              Kurs akcji:
-              <input
-                name="quotes"
-                type="number"
-                class="js-quotes form__field"
-                required
-              />
-            </label>
-          </p>
-          <p>
-            <label>
-              Kurs USD:
-              <input
-                name="exchange"
-                type="number"
-                class="js-exchange form__field"
-                required
-              />
-            </label>
-          </p>
-          <p>
+          <div class="flex">
+            <p class="flex__item">
+              <label>
+                Kurs akcji:
+                <input
+                  name="quotes"
+                  type="number"
+                  class="js-quotes form__field"
+                  required
+                />
+              </label>
+            </p>
+            <p class="flex__item">
+              <label>
+                Kurs USD:
+                <input
+                  name="exchange"
+                  type="number"
+                  class="js-exchange form__field"
+                  required
+                />
+              </label>
+            </p>
+          </div>
+          <p class="form__paragraph">
             Koszt jednej akcji wynosi:<strong class="js-cost form__cost"
               >n/a</strong
             >
@@ -81,7 +83,7 @@
               </select>
             </label>
           </p>
-          <p>
+          <p class="form__paragraph">
             <label>
               Wprowadź kwotę:
               <input
@@ -96,10 +98,14 @@
             </label>
             PLN
           </p>
-          <p>
-            <button class="form__button">Oblicz</button>
-          </p>
-          <p>= <strong class="js-score form__cost"> n/a</strong></p>
+          <div class="flex">
+            <p class="flex__item">
+              <button class="form__button">Oblicz</button>
+            </p>
+            <p class="flex__item">
+              = <strong class="js-score form__cost"> n/a</strong>
+            </p>
+          </div>
         </fieldset>
       </form>
     </div>

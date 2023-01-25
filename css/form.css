@@ -15,7 +15,7 @@
     background-color: rgb(244 232 97);
     border: 1px solid currentColor;
     border-radius: 8px;
-    padding: 5px 10px;
+    padding: 7px 10px;
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -39,11 +39,26 @@
     background-color: rgb(244 232 97);
     border: 1px solid currentColor;
     border-radius: 8px;
-    padding: 6px;
-    width: 80%;
-
+    padding: 5px;
+    width: 100%;
 }
 
 .form__button:hover {
     background-color: hsl(55, 87%, 77%);;
+}
+
+.form__paragraph {
+    margin: 0;
+    padding: 5px;
+}
+
+.flex {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex__item {
+    padding: 0 5px;
+    flex-basis: 50%;
 }

@@ -2,8 +2,9 @@
   const updatePriceText = (cost) => {
     const costElement = document.querySelector(".js-cost");
 
-    costElement.innerText =
-      cost < 0 ? "Wprowadź dodatnie liczby" : cost.toFixed(2);
+    costElement.innerText = `${
+      cost < 0 ? "tylko liczby dodatnie" : cost.toFixed(2)
+    }`;
   };
 
   const priceCalculate = () => {
