@@ -49,6 +49,9 @@
 
 .form__paragraph {
     margin: 0;
+}
+
+.form__paragraph--padding {
     padding: 5px;
 }
 
